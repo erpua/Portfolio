@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Monserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/montserrat-v12-latin-regular.woff2);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Monserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(62, 38, 139);
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+
+h2 {
+  color: rgb(252, 248, 0);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: rgb(43, 130, 211);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s linear;
+}
