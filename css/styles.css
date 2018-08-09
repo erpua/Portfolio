@@ -21,7 +21,7 @@ body {
   font-family: "Monserrat", sans-serif;
   font-size: 16px;
   line-height: 2rem;
-  background-image:linear-gradient(rgba(241, 145, 140, 0.1), rgba(230, 207, 130, 0.5)), url(../img/Kursy-yazykov-programmirovaniya.jpg);
+  background-image:linear-gradient(rgba(241, 145, 140, 0.1), rgba(230, 207, 130, 0.2)), url(../img/Kursy-yazykov-programmirovaniya.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,6 +54,7 @@ a {
 a:hover,
 a:focus {
   color: rgb(255, 255, 255);
-  background-color: rgba(0,0,0,0.2);
-  transition: all .3s linear;
+  background-color: rgba(0,0,0,0.4);
+  transition: all .5s ease;
+  border-radius: 20px;
 }
