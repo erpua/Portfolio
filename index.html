@@ -4,75 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
 
   <body>
-    <div class="container">
-      <h2 class="portfolio">Portfolio</h2>
-      <h2 class="html-css">Html / Css</h2>
+    <!-- HEADER -->
 
-      <ul class="projects">
-        <li class="projects__item">
-          <a
-            class="projects__link"
-            href="https://erpua.github.io/goit-fe-course/module_8/"
-            target="_blank"
-            >Adaptive design</a
-          >
-        </li>
-        <li class="projects__item">
-          <a
-            class="projects__link"
-            href="https://erpua.github.io/goit-fe-course/module_9/"
-            target="_blank"
-            >Adaptive design/Bootstrap 4</a
-          >
-        </li>
-        <li class="projects__item">
-          <a
-            class="projects__link"
-            href="https://erpua.github.io/goit-fe-course/module_10/"
-            target="_blank"
-            >BEM technology</a
-          >
-        </li>
-      </ul>
+    <header class="page-header">
+      <nav class="page-nav container">
+        <h2 href="#" class="link site-logo">[_Front End_]</h2>
 
-      <h2 class="team-project__title">Working project</h2>
+        <ul class="site-navigation">
+          <li class="item site-navigation__item">
+            <a href="#" class="link site-navigation__link">Home</a>
+          </li>
+          <li class="item site-navigation__item">
+            <a href="#" class="link site-navigation__link">About</a>
+          </li>
+          <li class="item site-navigation__item">
+            <a href="#" class="link site-navigation__link">Contacts</a>
+          </li>
+          <li class="item site-navigation__item">
+            <a
+              class="link site-navigation__link"
+              href="https://erpua.github.io/portfolio"
+              target="_blank"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <a
-        class="projects__link"
-        href="https://erpua.github.io/team-project/"
-        target="_blank"
-        >Team-project</a
-      >
+    <!-- MAIN -->
+
+    <main class="page-main">
+      <section class="banner">
+        <section class="introduction container">
+          <p class="introduction__title">Do what you love!</p>
+          <p class="introduction__paragraph">Hello!</p>
+          <p class="introduction__paragraph">I'm Front End Developer</p>
+        </section>
+      </section>
+
+      <section class="about container">
+        <img
+          class="about__picture"
+          src="img/3 @ 4.jpg"
+          alt="picture of the developer"
+        />
+        <p class="about__name">Ievgen Tovtin</p>
+
+        <p class="about__paragraph">
+          I've been studying Front-End online course. Look through my experience
+          and contact me in case that's what you need
+        </p>
+      </section>
 
       <section class="documents container">
-        <h2 class="documents__title">My documents</h2>
+        <h2 class="documents__title">My experience</h2>
 
         <a
           download
-          href="img/CV_Tovtin_Ievgen_front_end_developer.pdf"
+          href="img/CV_Ievgen_Tovtin_frontend_developer.docx"
           class="link cv-link"
-          >Download CV</a
+          >Download SCRUM certificate</a
         >
         <a
           download
           href="img/Ievgen_Tovtin_certificate_html_css.jpg"
           class="link certificate-link"
-          >Download certificate
-        </a>
+          >Download Front - End certificate</a
+        >
         <a
           download
-          href="img/Ievgen_Tovtin_certificate_htmlcss_addition.pdf"
+          href="img/Ievgen_Tovtin_certificate_htmlcss_addition.docx"
           class="link addition-link"
         >
-          Download certificate addition
+          Download Front - End addition
         </a>
       </section>
-    </div>
+    </main>
+
+    <footer class="page-footer">
+      <h2 class="contacts__title">Contacts</h2>
+
+      <ul class="socials__list container">
+        <li class="item socials__item">
+          <a class="link socials__link">
+            <svg
+              class="socials__icon socials__icon--telegram"
+              width="50"
+              height="50"
+            >
+              <use href="img/symbol-defs.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item socials__item">
+          <a class="link socials__link" href="mailto:zhe.tovtin@gmail.com">
+            <svg
+              class="socials__icon socials__icon--gmail"
+              width="50"
+              height="50"
+            >
+              <use href="img/symbol-defs.svg#icon-gmail"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item socials__item">
+          <a class="link socials__link" href="">
+            <svg
+              class="socials__icon socials__icon--gmail"
+              width="50"
+              height="50"
+            >
+              <use href="img/symbol-defs.svg#icon-gmail"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!--     <script src="js/script.js"></script> -->
   </body>
 </html>
