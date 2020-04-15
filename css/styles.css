@@ -1,17 +1,17 @@
 /* kaushan-script-regular - latin */
 @font-face {
-  font-family: "Kaushan Script";
+  font-family: 'Kaushan Script';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/kaushan-script-v6-latin-regular.woff2") format("woff2");
+  src: url('../fonts/kaushan-script-v6-latin-regular.woff2') format('woff2');
 }
 
 /* mr-dafoe-regular - latin */
 @font-face {
-  font-family: "Mr Dafoe";
+  font-family: 'Mr Dafoe';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/mr-dafoe-v6-latin-regular.woff2") format("woff2");
+  src: url('../fonts/mr-dafoe-v6-latin-regular.woff2') format('woff2');
 }
 
 /*    BASE    */
@@ -90,7 +90,7 @@ img {
   color: rgb(255, 255, 255);
   font-size: 2rem;
   line-height: 1;
-  font-family: "Kaushan Script";
+  font-family: 'Kaushan Script';
   font-style: normal;
   font-weight: 400;
   animation: logo-appear 1.5s linear;
@@ -142,7 +142,7 @@ img {
 }
 
 .introduction__title {
-  font-family: "Mr Dafoe", sans-serif;
+  font-family: 'Mr Dafoe', sans-serif;
   color: rgb(255, 255, 255);
   margin: 0;
   padding: 3rem 0 0 0;
@@ -151,7 +151,7 @@ img {
 }
 
 .introduction__title::after {
-  content: "";
+  content: '';
   display: block;
   width: 200px;
   height: 4px;
@@ -216,7 +216,7 @@ img {
   width: 290px;
   height: 290px;
   margin: 0 auto;
-  border-radius: 30%;
+  border-radius: 50%;
   padding-top: 1rem;
 }
 
