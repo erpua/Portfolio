@@ -1,7 +1,7 @@
 @media (min-width: 300px) {
   .page-header {
-    height: 100px;
-    line-height: 100px;
+    height: 260px;
+    line-height: 40px;
   }
 
   .banner {
@@ -27,7 +27,7 @@
   }
 
   .page-header {
-    height: 80px;
+    height: 90px;
     line-height: 80px;
   }
 

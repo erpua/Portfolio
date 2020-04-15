@@ -59,7 +59,7 @@ img {
 .page-header {
   max-width: 100%;
   background-color: rgb(212, 212, 212);
-  height: 200px;
+  height: 300px;
 }
 
 .page-nav {
@@ -182,7 +182,6 @@ img {
   border-radius: 20px;
   color: rgb(255, 255, 255);
   background-color: rgb(180, 180, 180);
-
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   transition: background-color 0.3s linear;
